@@ -111,7 +111,7 @@ span{
     padding: 100px 10%;
  }
  .home{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     height:100%;
     width: 100%;
     display: grid;
@@ -463,7 +463,7 @@ grid-gap: 2rem;
     background: var(--secon-bg-color);
     transition: transform .4s;
     border-radius: 10px;
-    height: 500px;
+    height: 50%;
 }
 .qualification-btn{
     width: auto;
@@ -951,7 +951,7 @@ footer a i{
         margin-top: 5rem;
     }
     .social-icon{
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     
@@ -963,7 +963,7 @@ footer a i{
         transition: all .4s ease;
     }
     .img-box img{
-        height: 150px;
+        margin-bottom: 10%;
     }
     .home {
         grid-gap: 2em; /* Reduce grid gap for smaller screens */
@@ -977,7 +977,7 @@ footer a i{
         margin-top: 0.5rem; /* Further adjust top margin */
     }
     .home {
-        padding: 5px;
+        padding: 10px;
         font-size: 16px;
     }
     #menu-icon.bx-x{
@@ -1008,7 +1008,7 @@ footer a i{
         grid-template-columns: 1fr;
     }
     .home-image{
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
     }
     .liquid-shape{
         width: 40%;
@@ -1041,20 +1041,20 @@ footer a i{
         width: 100%;
     }
     
-    
+   
     
 
 }
 @media only screen and (max-width:600px){
 .img-box img{
-    height: 50px;
-    width: 50px;
+    height: 25%;
+    width: 25%;
 }
 
 .liquid-shape{
-    width: 60%;
-    left: 20%;
-    top:-10%;
+    width: 50%;
+    left: 25%;
+    top:-5%;
 }
 
 
@@ -1091,12 +1091,12 @@ font-size: 40%;
     .liquid-shape{
         width: 60%;
         left: 20%;
-        top:-20%;
+        top:-10%;
     }
     .img-box img{
-        height: 150px;
-        width: 50px;
-        padding-bottom: 90px;
+        height: 50%;
+        width: 50%;
+        padding-bottom: 70px;
     }
     
     
